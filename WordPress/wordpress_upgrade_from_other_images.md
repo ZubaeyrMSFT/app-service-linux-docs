@@ -16,6 +16,7 @@ https://mcr.microsoft.com/appsvc/wordpress-alpine-php
 
 **Note-2:** Another approach for migration would be to create a new instance of WordPress on Linux App Service from the new image (You can do this from Azure Marketplace) and then migrate the old WordPress by following the steps mentioned [here](./wordpress_migration_linux_appservices.md) 
 
+<br>
 
 ## Steps for Upgrading the older image
 1. Create the following folder /home/wp-locks using SCM site (Kudu).
@@ -32,5 +33,4 @@ https://mcr.microsoft.com/appsvc/wordpress-alpine-php
 
 
 4. Update the new image details in the deployment centre and restart your App. 
-<br>
-<kbd><img src="./media/wordpress_deployment_center_update.png" width="1000" /></kbd>
+<kbd><img src="./media/wordpress_deployment_center_update.png" width="750" /></kbd>
