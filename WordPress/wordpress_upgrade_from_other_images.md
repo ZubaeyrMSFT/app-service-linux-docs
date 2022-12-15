@@ -16,7 +16,7 @@ This document describes the approach to upgrade WordPress instances running on L
 
 
 ## Steps for Upgrading
-1. Create the following folder /home/wp-locks using SCM site [**<appname>.scm.azurewebsites.net**].
+1. Create the following folder /home/wp-locks using SCM site [**\<appname\>.scm.azurewebsites.net**].
 2. Upload [wp_deployment_status.txt](./files/wp_deployment_status.txt) file to /home/wp-locks folder
 3. Make sure the following Application Settings are present and configured correctly.
 
