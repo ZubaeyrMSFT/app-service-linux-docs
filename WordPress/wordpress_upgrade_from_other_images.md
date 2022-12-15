@@ -1,6 +1,6 @@
-# Upgrading from Other Linux App Service
+# Upgrading from Other WordPress Images
 
-This document describes the approach to upgrade existing WordPress instances running on Linux App Service to the newer WordPress image.
+This document describes the approach to upgrade WordPress instances running on Linux App Service with other images to the newer WordPress image.
 
 **Old Image(s)**
 https://hub.docker.com/r/appsvcorg/wordpress-alpine-php
