@@ -15,7 +15,7 @@ This document describes the approach to upgrade WordPress instances running on L
 **Note-2:** Another approach for migration would be to create a new instance of WordPress on Linux App Service from the new image (You can do this from Azure Marketplace) and then migrate the old WordPress by following the steps mentioned [here](./wordpress_migration_linux_appservices.md) 
 
 
-## Steps for Upgrading the older image
+## Steps for Upgrading
 1. Create the following folder /home/wp-locks using SCM site (Kudu).
 2. Upload [wp_deployment_status.txt](./files/wp_deployment_status.txt) file to /home/wp-locks folder
 3. Make sure the following Application Settings are present and configured correctly.
