@@ -4,11 +4,9 @@ This document describes the approach to upgrade WordPress instances running on L
 
 <br>
 
-**Old Image** <br>
-https://hub.docker.com/r/appsvcorg/wordpress-alpine-php
+**Old Image:** https://hub.docker.com/r/appsvcorg/wordpress-alpine-php
 
-**New Image** <br>
-https://mcr.microsoft.com/appsvc/wordpress-alpine-php
+**New Image:** https://mcr.microsoft.com/appsvc/wordpress-alpine-php
 
 <br>
 
